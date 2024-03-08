@@ -1,0 +1,265 @@
+/*
+font families 
+
+    font-family: 'Josefin Slab', serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Work Sans', sans-serif;
+*/
+
+#wrapper {
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    /*    background-color: aqua;*/
+    /*    border: 2px solid #000000;*/
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header img {
+    display: block;
+    width: 42.8571429%;
+    /*    width is 300px*/
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000000;
+    /*    background-color: red;*/
+}
+
+nav {
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.indicator {
+    text-decoration: underline;
+}
+
+.menu {
+    display: none;
+}
+
+#mobile-nav {
+    display: none;
+}
+
+#mobile-nav label,
+#hamburger {
+    display: none;
+}
+
+#indexvideo {
+    text-align: center;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+video {
+    width: 65%;
+}
+
+#content {
+    display: flex;
+    border-top: 2px solid #000000;
+}
+
+#contentborder {
+    border-top: 2px solid #000000;
+}
+
+main {
+    margin-top: 25px;
+}
+
+#more {
+    display: none;
+}
+
+#button {
+    text-align: center;
+}
+
+#myBtn {
+    background-color: darkgray;
+    box-shadow: 0 0 2px 2px lightgray inset, 0 0 0 0 lightgray;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 15%;
+    height: 25px;
+    color: #000000;
+}
+
+#myBtn:hover {
+    /*    background-color: lightgray;*/
+    box-shadow: 0 0 10px 0 lightgray inset, 0 0 20px 8px lightgray;
+}
+
+.buttonpad {
+    padding-bottom: 10px;
+}
+
+#header {
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+/*        background-color: red;*/
+}
+
+.content {
+    /*    background-color: orange;*/
+    margin: 0;
+    margin-left: 12%;
+    margin-right: 12%;
+    line-height: 250%;
+}
+
+h4 {
+    text-indent: 15%;
+}
+
+.stylescontent {
+    padding: 0;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin: 0;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted #000000;
+}
+
+#stylescontent {
+    padding: 0;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin: 0;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#dancinggirlimg {
+    text-align: center;
+    filter: blur(3px);
+    margin: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#dancinggirlimg img {
+    max-width: 90%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 35px;
+}
+
+#promotionalimg {
+    text-align: center;
+    margin: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#promotionalimg img {
+    max-width: 100%;
+}
+
+#engagementimg1 {
+    text-align: center;
+    margin: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#engagementimg1 img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+#engagementimg2 {
+    text-align: center;
+    margin: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#engagementimg2 img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+#cultureimg {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+#cultureimg img {
+    width: 65%;
+}
+
+#bottomborder {
+    width: 92%;
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 8px;
+    border-top: 2px solid #000000;
+}
+
+#footerright {
+    float: right;
+    padding-right: 10px;
+    padding-bottom: 6px;
+}
+
+#footerleft {
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 6px;
+}
+
+#footerleft a {
+    text-decoration: none;
+    color: #000000;
+}
